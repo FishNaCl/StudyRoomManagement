@@ -1,0 +1,54 @@
+<!--pages/book-borrow/book-index.wxml-->
+<block wx:if="{{pageCur==0}}">
+	<van-index-bar scroll-top="{{scrollTop}}">
+		<view wx:for="{{arrayList}}">
+			<van-index-anchor index="{{item}}"></van-index-anchor>
+			<van-cell size="large" is-link title="书名" value="作者" label="出版社" wx:for="asd" bind:click="onBookDetailClickShow"></van-cell>
+		</view>
+	</van-index-bar>
+
+	<van-overlay show="{{isBookDetailShow}}" bind:click="onBookDetailClickHide">
+		<view class="cu-card article card-list" style="margin-top:300rpx">
+			<view class="cu-item shadow">
+				<view class="title">
+					<view class="text-cut text-left">假如给我三天光明</view>
+				</view>
+				<view class="content">
+					<view class="desc">
+						<view class="text-content bg-white">
+							<view class="text-left">
+								作者: 海伦·凯勒
+							</view>
+							<view class="text-left">
+								出版社: 不知道什么出版社
+							</view>
+							<view class="text-left">
+								ISBN: 123333334
+							</view>
+						</view>
+						<view class="cu-bar bg-white flex justify-end">
+							<view class="flex flex-wrap justify-around align-center bg-white" style="width: 30%;">
+								<button class="bg-green" size="mini" bindtap="onBookBorrowBtnClick">借阅</button>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+
+		</view>
+	</van-overlay>
+</block>
+
+
+<block wx:if="{{pageCur==1}}">
+<cover-image class="round-click" src="/image/scanCode.png"></cover-image>
+</block>
+
+<view class="cu-bar tabbar bg-white shadow foot">
+	<view class="action {{pageCur==0?'text-green':'text-gray'}}" bindtap="onNavChange" data-cur="0">
+		<view class='cuIcon-top'></view> 借书
+	</view>
+	<view class="action {{pageCur==1?'text-green':'text-gray'}}" bindtap="onNavChange" data-cur="1">
+		<view class='cuIcon-down'></view> 还书
+	</view>
+</view>

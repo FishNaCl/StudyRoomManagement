@@ -1,0 +1,94 @@
+<!--pages/index.wxml-->
+<view class="cu-bar bg-white fixed">
+	<view class="action">
+		<text class="cuIcon-title text-green"></text>
+		<text>附近的自习室</text>
+	</view>
+</view>
+
+<view class="cu-card article card-list no-card" style="margin-top: 100rpx">
+	<view class="cu-item shadow">
+		<view class="title">
+			<view class="text-cut text-left">理工大城院XXX自习室</view>
+		</view>
+		<view class="content">
+			<view class="desc">
+				<view class="text-content bg-white">
+					<view class="text-left">
+						营业时间: 7 * 24小时
+					</view>
+					<view class="text-left">
+						当前人数: 32 / 105
+					</view>
+					<view class="text-left">
+						地点: 昆明市盘龙区环城东路50号图书馆内
+					</view>
+				</view>
+				<view class="cu-bar bg-white flex justify-end">
+					<view class="flex flex-wrap justify-around align-center bg-white" style="width: 40%;">
+						<button class="bg-green" size="mini" bindtap="onUnlockBtnClick">开锁</button>
+						<button class="bg-green" size="mini" bindtap="onBookBtnClick">书籍</button>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="cu-card article card-list no-card">
+	<view class="cu-item shadow">
+		<view class="title">
+			<view class="text-cut text-left">理工大城院XXX自习室</view>
+		</view>
+		<view class="content">
+			<view class="desc">
+				<view class="text-content bg-white">
+					<view class="text-left">
+						营业时间: 7 * 24小时
+					</view>
+					<view class="text-left">
+						当前人数: 32 / 105
+					</view>
+					<view class="text-left">
+						地点: 昆明市盘龙区环城东路50号图书馆内
+					</view>
+				</view>
+				<view class="cu-bar bg-white flex justify-end">
+					<view class="flex flex-wrap justify-around align-center bg-white" style="width: 30%;">
+						<button class="bg-green" size="mini" bindtap="onBookBorrowBtnClick">预定</button>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class="cu-card article card-list no-card">
+	<view class="cu-item shadow">
+		<view class="title">
+			<view class="text-cut text-left">理工大城院XXX自习室</view>
+		</view>
+		<view class="content">
+			<view class="desc">
+				<view class="text-content bg-white">
+					<view class="text-left">
+						营业时间: 7 * 24小时
+					</view>
+					<view class="text-left">
+						当前人数: 32 / 105
+					</view>
+					<view class="text-left">
+						地点: 昆明市盘龙区环城东路50号图书馆内
+					</view>
+				</view>
+				<view class="cu-bar bg-white flex justify-end">
+					<view class="flex flex-wrap justify-around align-center bg-white" style="width: 30%;">
+						<button class="bg-green" size="mini" bindtap="onBookBorrowBtnClick">借阅</button>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class='cu-tabbar-height'></view>

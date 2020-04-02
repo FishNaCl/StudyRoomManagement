@@ -1,0 +1,14 @@
+/* pages/book-borrow/book-index.wxss */
+page {
+  margin-bottom: 50px;
+}
+
+.round-click {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 500rpx;
+  height: 500rpx;
+  margin-top: -250rpx;
+  margin-left: -250rpx;
+}

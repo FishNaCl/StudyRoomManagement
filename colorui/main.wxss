@@ -18,8 +18,8 @@ page {
 	--yellow: #fbbd08;
 	--olive: #8dc63f;
 	--green: #39b54a;
-	/* --cyan: #1cbbb4; */
-	--cyan: #17a2b8;
+	--cyan: #1cbbb4;
+	/* --cyan: #17a2b8; */
 	--blue: #0081ff;
 	--purple: #6739b6;
 	--mauve: #9c26b0;
@@ -37,8 +37,8 @@ page {
 	--yellowLight: #fef2ce;
 	--oliveLight: #e8f4d9;
 	--greenLight: #d7f0db;
-	/* --cyanLight: #d2f1f0; */
-	--cyanLight: #d2f1f5;
+	--cyanLight: #d2f1f0;
+	/* --cyanLight: #d2f1f5; */
 	--blueLight: #cce6ff;
 	--purpleLight: #e1d7f0;
 	--mauveLight: #ebd4ef;
